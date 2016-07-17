@@ -1,6 +1,6 @@
 {
     "global": {
-        "title": "Sisclapa",
+        "title": "Sistema de Clasificación de Pacientes",
         "browsehappy": "Está usando un navegador <strong>no actualizado</strong>. Por favor, <a href=\"http://browsehappy.com/?locale=en\">actualice su navegador</a> para mejorar su experiencia.",
         "menu": {
             "home": "Inicio",
@@ -26,9 +26,10 @@
                 "health": "Salud",
                 "configuration": "Configuración",
                 "logs": "Logs",
-                "audits": "Auditorías",
+                "audits": "Auditoría de Login",
                 "apidocs": "API",
                 "database": "Base de datos",
+                "entity-audit": "Auditoría de Entidades",
                 "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
             },
             "language": "Idioma"

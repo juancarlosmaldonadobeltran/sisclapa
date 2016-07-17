@@ -100,8 +100,8 @@ Main page styles
 .hipster {
     display: inline-block;
     width: 347px;
-    height: 497px;
-    background: url("../images/hipster.png") no-repeat center top;
+    height: 347px;
+    background: url("../images/uis.png") no-repeat center top;
     background-size: contain;
 }
 
@@ -114,7 +114,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
     .hipster {
-        background: url("../images/hipster2x.png") no-repeat center top;
+        background: url("../images/uis2x.png") no-repeat center top;
         background-size: contain;
     }
 }
@@ -332,3 +332,19 @@ ui bootstrap tweaks
 
 
 /* jhipster-needle-css-add-main JHipster will add new css style */
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.footer {
+  display: block;
+  background-color: #828282;	
+  border-radius: 4px;
+}

@@ -19,9 +19,9 @@ spring:
             enabled: false # we use gulp + BrowserSync for livereload
     datasource:
         url: jdbc:mysql://localhost:3306/sisclapa?useUnicode=true&characterEncoding=utf8&useSSL=false
-        name:
+        name: sisclapa
         username: root
-        password:
+        password: root
         hikari:
             data-source-properties:
                 cachePrepStmts: true
@@ -36,16 +36,23 @@ spring:
             hibernate.cache.use_second_level_cache: false
             hibernate.cache.use_query_cache: false
             hibernate.generate_statistics: true
+            
     mail:
-        host: localhost
-        port: 25
-        username:
-        password:
+        host: smtp.gmail.com
+        port: 587
+        username: sisclapa@gmail.com #Replace this field with your Gmail username.
+        password: sisclapa2016       #Replace this field with your Gmail password.
+        protocol: smtp
+        tls: true
+        properties.mail.smtp:
+            auth: true
+            starttls.enable: true
+            ssl.trust: smtp.gmail.com
     messages:
         cache-seconds: 1
     thymeleaf:
         cache: false
-
+        
 liquibase:
     contexts: dev
 
